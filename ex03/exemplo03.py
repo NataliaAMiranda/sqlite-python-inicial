@@ -6,6 +6,8 @@ Esse script ilustra um pequeno exemplo de uso da biblioteca sqlalchemy
 Esse exemplo criará o esquema do banco
 
 https://www.pythonsheets.com/notes/python-sqlalchemy.html
+
+https://docs.sqlalchemy.org/en/latest/orm/basic_relationships.html
 '''
 
 
@@ -45,7 +47,7 @@ def populando_base():
 
     # Efetivando a persistência
     session.commit()
-    # fechando a conexão
+    # fechando a sessão
     session.close()
 
 

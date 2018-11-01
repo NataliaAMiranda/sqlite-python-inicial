@@ -9,7 +9,7 @@ from ex03.base import Base
 class Telefones(Base):
     __tablename__ = 'Telefones'
 
-    idTelefone = Column(Integer, primary_key=True)
+    idTelefone = Column(Integer, primary_key=True, autoincrement=True)
     numero = Column(String)
     idPessoa = Column(Integer, ForeignKey('Pessoa.idPessoa'))
     Pessoa = relationship("Pessoa", backref="Telefones")

@@ -11,6 +11,8 @@ https://docs.sqlalchemy.org/en/latest/dialects/sqlite.html
 
 https://www.pythonsheets.com/notes/python-sqlalchemy.html
 
+https://docs.sqlalchemy.org/en/latest/orm/basic_relationships.html
+
 '''
 
 from sqlalchemy import create_engine
